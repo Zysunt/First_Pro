@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Book</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Selectservlet</display-name>
+    <servlet-name>Selectservlet</servlet-name>
+    <servlet-class>com.easy.servlet.Selectservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Selectservlet</servlet-name>
+    <url-pattern>/T1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Deleteservlet</display-name>
+    <servlet-name>Deleteservlet</servlet-name>
+    <servlet-class>com.easy.servlet.Deleteservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Deleteservlet</servlet-name>
+    <url-pattern>/Deleteservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
